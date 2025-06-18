@@ -1,4 +1,3 @@
-
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 const taskInput = document.getElementById("taskInput");
