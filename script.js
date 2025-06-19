@@ -19,7 +19,6 @@ tasks.forEach((task, index) => {
     taskList.appendChild(li);
 });
 }
-
 addBtn.addEventListener("click", () => {
 const text = taskInput.value.trim();
 if (text !== "") {
@@ -54,3 +53,4 @@ renderTasks();
 }
 
 renderTasks();
+

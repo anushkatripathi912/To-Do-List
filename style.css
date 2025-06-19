@@ -88,6 +88,8 @@ margin-left: 10px;
 
 #addTaskBtn:hover {
 opacity: 0.9;
+background:linear-gradient(to right, #e74a6e, #978b8bbc);
+color: white;
 }
 
 #clearAllBtn {
@@ -162,6 +164,7 @@ input[type="text"] {
 #addTaskBtn {
     width: 100%;
     margin-left: 0;
+    flex:0.5;
 }
 }
 
